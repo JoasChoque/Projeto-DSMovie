@@ -6,6 +6,7 @@
   --white: #fff;
   --text-gray: #4a4a4a;
   --text-light-gray: #aaa;
+  --star-yellow: #ffbb3a;
 }
 
 * {
@@ -86,7 +87,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   border-radius: 0 0 8px 8px;
-  min-height: 150px;
+  height: 220px;
 }
 
 .card_description h3 {
@@ -94,6 +95,29 @@ a:hover {
   font-size: 14px;
   font-weight: 700;
   text-align: center;
+}
+
+.card_description_bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_description_bottom img {
+  width: 22px;
+}
+
+.card_description_bottom h4 {
+  color: var(--star-yellow);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card_description_bottom p {
+  color: var(--text-light-gray);
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 .card_btn,
